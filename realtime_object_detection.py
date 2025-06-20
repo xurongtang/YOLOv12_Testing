@@ -18,8 +18,8 @@ import cv2
 from ultralytics import YOLO
 import time
 
-model = YOLO("yolov12n.pt") # 或使用更大的模型
-# model = YOLO("yolov12x.pt")
+# model = YOLO("yolov12n.pt")
+model = YOLO("yolov12s.pt")
 
 # 打开视频文件
 # cap = cv2.VideoCapture("path.mp4")
